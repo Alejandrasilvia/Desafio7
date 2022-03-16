@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <meta name="descripcion" content="Servicios integrales para el hogar, contacto">
+    <meta name="keywords" content="Contacto servicios  electricistas,  aire acondicionados, plomeria , pintura..">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=STIX+Two+Text&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Redressed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <header>
+        <div id="grilla">
+                <nav class="header">
+                    <img src="images/logo empresa.png" width="100px" class="header__logo">
+                </nav>
+                    <div>
+                    <h1>Contacto</h1>   
+                    </div>
+        </div>
+            <div>
+                <div id="barranav">
+                    <ul  id="nav">
+                        <li><a href="index.html"  class="header__links header__links--activo">Inicio</a></li>
+                        <li><a href="servicios.html"  class="header__links">Servicios</a></li>
+                        <li><a href="galeria.html" class="header__links">Galería</a></li>
+                        <li><a href="consejos.html"class="header__links">Consejos</a></li>
+                        <li><a href=""class="header__links">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <main> <!--Formulario-->
+            <form>
+                <div class="container-fluid">
+                    <fieldset>
+                            <label for="fnombre">Nombre:</label>
+                            <input type="text" id="fnombre" required><br>
+                            <br>
+                            <label for="fapellido">Apellido:</label>
+                            <input type="text" id="fapellido" required><br>
+                            <br>
+                            <label for="f-mail">E-mail:</label>
+                            <input type="e-mail" id="fe-mail" required><br>
+                            <br>
+                            <label for="estadoCivil">Estado civil:</label>
+                            <select>
+                                    <option>soltero/a</option>
+                                    <option>casado/a</option>
+                                    <option>viudo/a</option>
+                        </select><br>
+                                <br>
+                        <p> ¿Desea recibir el Newsletter? <input type="checkbox"></p>
+                            <label for="fcomentarios">Comentarios</label><br>
+                            <textarea id="fcomentarios" cols="80" rows="8" required></textarea><br>
+                            <input class="check1" type="submit" value="Enviar">
+                            <button class="check1" type="reset">Resetear</button></div>
+                    </fieldset>
+                </div>
+            </form>
+        </main>
+        <!--redes sociales y footer-->
+        <footer>
+            <div class="container-fluid">
+                    <h4 class="seguinos">Seguinos en:</h4>
+                    <div class="redes">
+                            <a  href="https://facebook.com/"><img src="images/logo facebook.png" width="45px" height="45px"></a>
+                            <a href="https://twitter.com/"><img src="images/logo twitter.png" width="45px" height="45px"></a> 
+                            <a href="https://www.instagram.com"><img src="images/logo instagram.png" width="45px" height="45px"></a>
+                            <a href="https://www.linkedin.com"><img src="images/logo linkedin.png" width="45px" height="45px"></a>               
+                    </div>
+                    <div class="copy">
+                        <p class="copy"> Copyright 2022 - Todos los derechos reservados</p>
+                    </div>
+            </div>
+        </footer>
+    </body>
+</html>
